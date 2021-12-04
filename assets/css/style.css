@@ -1,0 +1,149 @@
+html, body {
+  height: 100%;
+}
+body {
+  background-color: #2A2B2D;
+  background-image: url('../img/moon.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+}
+
+div.header {
+
+}
+
+div.body {
+
+}
+div.content {
+  position: absolute;
+  left:10%;
+  top: 50%;
+  transform: translateY(-50%);
+  /* width: 60%; */
+  /* max-height: 90%; */
+}
+h1.title {
+  color: #fff;
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 5.0vw;
+  text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
+}
+h2.title {
+  color: #ffffff77;
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: max(1.5vw, 10px);
+  margin: 0px;
+}
+span.hints {
+  color: #ffffff2f;
+  font-family: 'Hachi Maru Pop', cursive;
+  font-size: max(1vw, 6px);
+  margin: 0px 0px 0px 10px;
+}
+div.bulb {
+  vertical-align: top;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 120px;
+  height: 0px;
+  display: none;
+}
+p.bulb {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.0em;
+  color: #fff;
+  text-align: center;
+}
+img.bulb {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+div.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  left: 0px;
+  color: #ffffff77;
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: max(0.8vw, 6px);
+  margin-bottom: 0px;
+}
+div.contacts {
+  padding-left: 10%;
+  width: 50%;
+  text-align: left;
+  transform: translateY(50%);
+}
+button.contact {
+  background-color: #00000000; /* Green */
+  border: none;
+  /* color: #ffffff77; */
+  /* padding: 0px; */
+  /* text-align: center; */
+  /* text-decoration: none; */
+  display: inline-block;
+  /* font-size: 16px; */
+  margin: 0px 0.5vw 0px 0px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  /* border-radius: 2px; */
+  width: max(2.0vw, 16px);
+  height: 26px;
+  outline: none;
+}
+button.linkedin {
+  background: url('https://api.iconify.design/ant-design:linkedin-filled.svg?color=%23FFFFFF77') no-repeat center center / contain;
+}
+button.linkedin:hover {
+  /* background-color: #0D68BE; */
+  /* color: #fff; */
+  background: url('https://api.iconify.design/ant-design:linkedin-filled.svg?color=%230D68BE') no-repeat center center / contain;
+}
+button.email {
+  background: url('https://api.iconify.design/fluent:mail-inbox-16-filled.svg?color=%23FFFFFF77') no-repeat center center / contain;
+}
+button.email:hover {
+  /* background-color: #E8453D; */
+  /* color: #fff; */
+  background: url('https://api.iconify.design/fluent:mail-inbox-16-filled.svg?color=%23E8453D') no-repeat center center / contain;
+}
+button.twitter {
+  background: url('https://api.iconify.design/ant-design:twitter-square-filled.svg?color=%23FFFFFF77') no-repeat center center / contain;
+}
+button.twitter:hover {
+  /* background-color: #52ACEE; */
+  /* color: #fff; */
+  background: url('https://api.iconify.design/ant-design:twitter-square-filled.svg?color=%2352ACEE') no-repeat center center / contain;
+}
+button.facebook {
+  background: url('https://api.iconify.design/ant-design:facebook-filled.svg?color=%23FFFFFF77') no-repeat center center / contain;
+}
+button.facebook:hover {
+  /* background-color: #4968A7; */
+  /* color: #fff; */
+  background: url('https://api.iconify.design/ant-design:facebook-filled.svg?color=%234968A7') no-repeat center center / contain;
+}
+button.github {
+  background: url('https://api.iconify.design/ant-design:github-filled.svg?color=%23FFFFFF77') no-repeat center center / contain;
+}
+button.github:hover {
+  /* background-color: #171717; */
+  /* color: #fff; */
+  background: url('https://api.iconify.design/ant-design:github-filled.svg?color=%23171717') no-repeat center center / contain;
+}
+div.footer h2 {
+  padding-right: 10%;
+  margin: 0px 0px 0px 0px;
+  text-align: right;
+}
+.material-icons.fav {
+  font-size: 1.2em;
+  color: red;
+}
