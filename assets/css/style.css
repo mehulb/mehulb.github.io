@@ -81,6 +81,9 @@ div.contacts {
   text-align: left;
   transform: translateY(50%);
 }
+div.contact-buttons {
+  margin-top: 10px;
+}
 button.contact {
   background-color: #00000000; /* Green */
   border: none;
@@ -146,4 +149,8 @@ div.footer h2 {
 .material-icons.fav {
   font-size: 1.2em;
   color: red;
+}
+.material-icons.cof {
+  font-size:  1.2em;
+  color:  #663300;
 }
